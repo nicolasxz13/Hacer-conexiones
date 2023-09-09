@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'google roboto';
+}
+
+#profile {
+
+    margin-left: 50px;
+}
+
+main #profile .row {
+    background-color: #17a2b8;
+    border-style: outset;
+    margin-top: 50px;
+}
+
+#profile .row #profilecontent {
+    background-color: white;
+    margin-top: 280px;
+    padding-top: 160px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#profile .row #profilecontent #icon {
+    position: absolute;
+    top: 14em;
+    left: 5em;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#profile .row #profilecontent #icon_map_marker {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#profile .row #profilecontent div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#profile .row #profilecontent div h2 {
+    margin-left: 10px;
+}
+
+#profile .row #profilecontent a {
+    text-decoration: underline;
+    color: blue;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#profile .row #profilecontent a img {
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+#profile #education {
+    border-style: outset;
+    margin-top: 50px;
+}
+
+#profile #education div:first-child {
+    height: 3em;
+    background-color: #333333;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#profile #education div {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#profile #education div p {
+    font-size: 24px;
+    font-weight: lighter;
+
+}
+
+#profile #education div .desc {
+    color: #666666;
+
+}
+
+main aside .row {
+    border-style: outset;
+    margin-top: 50px;
+}
+
+main aside .row .headercontent {
+    height: 5.5em;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main aside .row .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main aside .row .content>* {
+    flex: 0 0 auto;
+    margin-left: 50px;
+}
+
+#requestconnection {
+    border-radius: 50%;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+#connectionCount {
+    border-radius: 40%;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 50px;
+}
+
+#viewmoreconnections {
+    flex: 0 0 auto;
+    text-align: start;
+    border-style: outset;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 10px;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main aside .row .content img {
+    border-radius: 50%;
+}
+
+main aside .row .content button {
+    border-style: none;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+main #profile {
+    flex: 1;
+}
+
+main aside {
+    flex: 0 0 auto;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 40em;
+}
+
+@font-face {
+    font-family: 'google roboto';
+    src: url(./font/Roboto-Light.ttf);
+}
